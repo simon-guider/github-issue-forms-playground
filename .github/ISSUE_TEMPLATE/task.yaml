@@ -1,4 +1,4 @@
-name: Bug Report
+name: Task
 description: A task represents work that needs to be done.
 title: "[🤖 Task]: "
 labels: [🤖 Task]
