@@ -1,0 +1,45 @@
+name: Bug Report
+description: A task represents work that needs to be done.
+title: "[🤖 Task]: "
+labels: [🤖 Task]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To create a tech task, please fill out all of the required details below.
+  - type: textarea
+    id: context
+    attributes:
+      label: ℹ️ Context
+      description: Provide some context for this task
+      placeholder: 
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 📋 Acceptance Criteria
+      description: These should be numbered
+      placeholder: 
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: technical-guidance
+    attributes:
+      label: 💡 Technical guidance
+      description: Proved some technical guidance for how to complete this task
+      placeholder: 
+      value:
+    validations:
+      required: false
+  - type: textarea
+    id: resources
+    attributes:
+      label: 📚 Resources
+      description: List some related resources eg documentation links, figma designs etc
+      placeholder: 
+      value:
+    validations:
+      required: false
