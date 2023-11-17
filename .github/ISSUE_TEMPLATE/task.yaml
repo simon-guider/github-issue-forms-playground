@@ -20,7 +20,7 @@ body:
     id: acceptance-criteria
     attributes:
       label: 📋 Acceptance Criteria
-      description: These should be numbered
+      description: "The conditions that must be satisfied for the task to be accepted. These should be numbered."
       placeholder: 
       value: "1." 
     validations:
@@ -28,8 +28,8 @@ body:
   - type: textarea
     id: technical-guidance
     attributes:
-      label: 💡 Technical guidance
-      description: Proved some technical guidance for how to complete this task
+      label: "💡 Technical guidance"
+      description: "Proved some technical guidance for completing this task. These should be numbered."
       placeholder: 
       value: "1."
     validations:
