@@ -1,7 +1,7 @@
 name: Task
 description: A task represents work that needs to be done.
 title: "[🤖 Tech]: "
-labels: Tech Task]
+labels: Tech Task
 body:
   - type: markdown
     attributes:
@@ -22,7 +22,7 @@ body:
       label: 📋 Acceptance Criteria
       description: These should be numbered
       placeholder: 
-      value: 1. 
+      value:  1. 
     validations:
       required: true
   - type: textarea
