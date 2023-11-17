@@ -1,7 +1,7 @@
 name: 🤖 Tech Task
 description: A tech task represents work that needs to be done.
-title: "[🤖 Tech]: "
-labels: Tech Task
+title: "Tech: "
+labels: "🤖 Tech Task"
 body:
   - type: markdown
     attributes:
