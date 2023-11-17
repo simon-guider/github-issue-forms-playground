@@ -1,7 +1,7 @@
 name: Task
 description: A task represents work that needs to be done.
-title: "[🤖 Task]: "
-labels: [🤖 Task]
+title: "[🤖 Tech]: "
+labels: Tech Task]
 body:
   - type: markdown
     attributes:
@@ -22,7 +22,7 @@ body:
       label: 📋 Acceptance Criteria
       description: These should be numbered
       placeholder: 
-      value:
+      value: 1. 
     validations:
       required: true
   - type: textarea
@@ -31,7 +31,7 @@ body:
       label: 💡 Technical guidance
       description: Proved some technical guidance for how to complete this task
       placeholder: 
-      value:
+      value: 1.
     validations:
       required: false
   - type: textarea
@@ -39,7 +39,7 @@ body:
     attributes:
       label: 📚 Resources
       description: List some related resources eg documentation links, figma designs etc
-      placeholder: 
+      placeholder: Link to a figma design
       value:
     validations:
       required: false
