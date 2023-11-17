@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        To create a tech task, please fill out all of the required details below.
+        Please fill out this form as best as you can. 
+
+        new line
   - type: textarea
     id: context
     attributes:
