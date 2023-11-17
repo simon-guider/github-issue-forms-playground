@@ -1,14 +1,12 @@
 name: 🤖 Tech Task
-description: A task represents work that needs to be done.
+description: A tech task represents work that needs to be done.
 title: "[🤖 Tech]: "
 labels: Tech Task
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out this form as best as you can. 
-
-        new line
+        Please fill out this form as best as you can.
   - type: textarea
     id: context
     attributes:
