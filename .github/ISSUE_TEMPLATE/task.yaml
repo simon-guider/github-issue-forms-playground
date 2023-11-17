@@ -44,4 +44,3 @@ body:
       value:
     validations:
       required: false
-  - description: A task represents work that needs to be done.
