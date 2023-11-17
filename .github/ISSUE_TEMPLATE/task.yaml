@@ -22,7 +22,7 @@ body:
       label: 📋 Acceptance Criteria
       description: These should be numbered
       placeholder: 
-      value:  1. 
+      value: "1." 
     validations:
       required: true
   - type: textarea
@@ -31,7 +31,7 @@ body:
       label: 💡 Technical guidance
       description: Proved some technical guidance for how to complete this task
       placeholder: 
-      value: 1.
+      value: "1."
     validations:
       required: false
   - type: textarea
