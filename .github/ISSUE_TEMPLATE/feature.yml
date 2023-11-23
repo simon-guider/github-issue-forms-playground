@@ -1,7 +1,6 @@
-name: 🔮 Feature
-description: A spike is used to gain the knowledge necessary to reduce the risk of a technical approach, better understand a requirement, or increase the reliability of a story estimate..
-title: "FEATURE: "
-labels: "🔮 Feature"
+name: 🌱 Feature
+description: A feature tells a story about how a user would like to see a change to the software"
+labels: "🌱 Feature"
 body: 
   - type: markdown
     attributes:
@@ -10,34 +9,40 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: ℹ️ User Story
+      label: 📖 User Story
       description: "Include additional information regarding the objective or background of this issue."
       placeholder: 
       value: |
         As [a user persona],
         I want [to perform this action]
         so that [I can accomplish this goal].
-  - type: input
-    id: timebox
+   - type: textarea
+    id: context
     attributes:
-      label: ⌛ Timebox
-      description: "How much time should be spent on this spike"
-      placeholder: 1 day
+      label: ℹ️ Context
+      description: "Include additional information regarding the objective or background of this issue."
+      placeholder: 
       value:
+    validations:
+      required: true
   - type: textarea
-    id: benefits
+    id: acceptance-criteria
     attributes:
-      label: "💪 Benefits"
-      description: "How will this spike advance the product or our understanding."
-      placeholder:  
+      label: "📋 Acceptance Criteria"
+      description: "These are the conditions that must be satisfied for the task to be accepted. These should be numbered."
+      placeholder: 
       value: "1." 
+    validations:
+      required: true
   - type: textarea
-    id: outcomes
+    id: technical-guidance
     attributes:
-      label: "🎯 Outcomes"
-      description: "What do we want to achieve with this research."
+      label: "💡 Technical guidance"
+      description: "Proved some technical guidance for completing this task. These should be numbered."
       placeholder: 
       value: "1."
+    validations:
+      required: false
   - type: textarea
     id: resources
     attributes:
@@ -45,3 +50,5 @@ body:
       description: "List some related resources eg documentation links, figma designs etc"
       placeholder: "You can attach images or log files by clicking this area to highlight it and then dragging files in."
       value:
+    validations:
+      required: false
