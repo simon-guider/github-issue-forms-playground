@@ -11,14 +11,14 @@ body:
     id: context
     attributes:
       label: ℹ️ Context
-      description: "Include additional information regarding the objective or background of this issue."
+      description: "Include additional information regarding the background of this issue."
       placeholder: 
       value:
   - type: textarea
     id: benefits
     attributes:
       label: "👣 Steps to reproduce"
-      description: "Use a numbered list of steps that are needed to reproduce the issue"
+      description: "Use a numbered list of steps that are needed to reproduce the issue."
       placeholder:  
       value: "1." 
   - type: textarea
