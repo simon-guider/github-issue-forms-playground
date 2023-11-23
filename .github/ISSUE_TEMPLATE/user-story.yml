@@ -1,5 +1,6 @@
 name: 🌱 User Story
 description:  "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer."
+title: "User Story: "
 labels: "🌱 Enhancement"
 body: 
   - type: markdown
