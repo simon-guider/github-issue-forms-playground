@@ -21,4 +21,11 @@ body:
       description: "Use a numbered list of steps that are needed to reproduce the issue."
       placeholder:  
       value: "1." 
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: "🎯 Expected results"
+      description: "What was supposed to happen"
+      placeholder: 
+      value: "1."
  
