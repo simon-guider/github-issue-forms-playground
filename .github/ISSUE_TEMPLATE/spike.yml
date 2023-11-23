@@ -17,7 +17,7 @@ body:
   - type: input
     id: timebox
     attributes:
-      label: ℹ️ Context
+      label: ⌛ Timebox
       description: "How much time should be spent on this spike"
       placeholder: 1 day
       value:
