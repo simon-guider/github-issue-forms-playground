@@ -17,7 +17,7 @@ body:
         As [a user persona],
         I want [to perform this action]
         so that [I can accomplish this goal].
-   - type: textarea
+  - type: textarea
     id: context
     attributes:
       label: ℹ️ Context
