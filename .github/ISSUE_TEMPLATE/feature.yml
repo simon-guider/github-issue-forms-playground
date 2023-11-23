@@ -1,7 +1,7 @@
-name: 🔮 Spike
+name: 🔮 Feature
 description: A spike is used to gain the knowledge necessary to reduce the risk of a technical approach, better understand a requirement, or increase the reliability of a story estimate..
 title: "FEATURE: "
-labels: "🔮 Spike"
+labels: "🔮 Feature"
 body: 
   - type: markdown
     attributes:
