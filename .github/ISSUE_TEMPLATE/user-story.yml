@@ -1,6 +1,6 @@
-name: 🌱 Feature
-description: A feature tells a story about how a user would like to see a change to the software"
-labels: "🌱 Feature"
+name: 🌱 User Story
+description:  "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer."
+labels: "🌱 Enhancement"
 body: 
   - type: markdown
     attributes:
