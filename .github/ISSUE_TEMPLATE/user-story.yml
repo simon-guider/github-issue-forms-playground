@@ -7,7 +7,7 @@ body:
       value: |
         Please fill out this form as best as you can.
   - type: textarea
-    id: context
+    id: user-story
     attributes:
       label: 📖 User Story
       description: "Include additional information regarding the objective or background of this issue."
