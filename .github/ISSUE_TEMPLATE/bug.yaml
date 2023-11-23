@@ -14,4 +14,11 @@ body:
       description: "Include additional information regarding the background of this issue."
       placeholder: 
       value:
+  - type: textarea
+    id: benefits
+    attributes:
+      label: "👣 Steps to reproduce"
+      description: "Use a numbered list of steps that are needed to reproduce the issue."
+      placeholder:  
+      value: "1." 
  
