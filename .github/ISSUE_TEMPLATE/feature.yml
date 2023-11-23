@@ -13,10 +13,10 @@ body:
       label: ℹ️ User Story
       description: "Include additional information regarding the objective or background of this issue."
       placeholder: 
-      value:
-      "As [a user persona],
-      I want [to perform this action]
-      so that [I can accomplish this goal]."
+      value: |
+        As [a user persona],
+        I want [to perform this action]
+        so that [I can accomplish this goal].
   - type: input
     id: timebox
     attributes:
